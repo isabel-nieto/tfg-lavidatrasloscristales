@@ -16,7 +16,7 @@ share: true
 # Owner/author information
 owner:
   name:   photorama
-  avatar: avatar.png
+  avatar: 
   favicon: favicon.ico
   info: photography website template
 
