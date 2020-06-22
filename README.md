@@ -7,7 +7,7 @@ Es un fork del proyecto original Photorama (https://github.com/sunbliss/photoram
 ----------
 
 
-##Licencia
+## Licencia
 
 The MIT License (MIT)
 
