@@ -34,8 +34,9 @@ comments :
 # Internal nav
 nav:
   - GALERÍA: "https://giorg0s.github.io/pruebaisa1/galeria/"  
-  - JOURNAL: "https://giorg0s.github.io/pruebaisa1/journal/"
+  - SOBRE EL PROYECTO: "https://giorg0s.github.io/pruebaisa1/journal/"
   - DEDICATORIA: "https://giorg0s.github.io/pruebaisa1/dedicatoria/"
+  - MÚSICAS DEL CONFINAMIENTO: "https://giorg0s.github.io/pruebaisa1/musica/"
   - SOBRE MI: "https://giorg0s.github.io/pruebaisa1/sobre/"
   - CONTACTO: "https://giorg0s.github.io/pruebaisa1/contacto/"
 
