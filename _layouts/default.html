@@ -4,7 +4,7 @@
 {% include head.html %}
 
 <head>
-{% if page.url == "/404.html" %}<meta http-equiv="refresh" content="5; url={{ site.baseurl }}/journal" />{% endif %}
+{% if page.url == "/404.html" %}<meta http-equiv="refresh" content="5; url={{ site.baseurl}}" />{% endif %}
 </head>
 
 <body>
@@ -12,8 +12,6 @@
     {% include nav.html %}
 
     {{ content }}
-
-    {% include search.html %}
 
     <div class="row"  style="background-color: #0085a1; padding-bottom: 40px; margin-top: 50px; margin-bottom: 80px;">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
