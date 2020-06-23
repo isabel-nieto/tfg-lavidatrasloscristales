@@ -94,17 +94,17 @@ MIT Licensed
 }
 
 .super-search__input::-webkit-input-placeholder {
-   color: rgba(138, 17, 17, .45);
+   color: rgba(0, 133, 161, .45);
 }
 
 .super-search__input:-moz-placeholder { /* Firefox 18- */
-   color: rgba(138, 17, 17, .45);  
+   color: rgba(0, 133, 161, .45);  
 }
 
 .super-search__input::-moz-placeholder {  /* Firefox 19+ */
-   color: rgba(138, 17, 17, .45);  
+   color: rgba(0, 133, 161, .45);  
 }
 
 .super-search__input:-ms-input-placeholder {  
-   color: rgba(138, 17, 17, .45);  
+   color: rgba(0, 133, 151, .45);  
 }
