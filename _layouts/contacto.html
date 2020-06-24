@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<!-- Page Header -->
+<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <hr class="small">
+                    <span class="subheading">{{ page.description }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-5">
+            {{content}}
+        </div>
+        <div class="col-lg-7">
+            <!-- modify this form HTML and place wherever you want your form -->
+            <h2>Formulario de contacto:</h2>
+            <form
+            action="https://getsimpleform.com/messages?form_api_token=14148b7134bc0375a57ec02752c3d2f4"
+            method="POST"
+            >
+            <label>
+                Nombre:
+                <input type="text" name="nombre">
+            </label>
+            <label>
+                Correo electrónico:
+                <input type="email" name="email">
+            </label>
+            <label>
+                Asunto:
+                <textarea type="text" name="asunto"></textarea>
+                </label>
+            <label>
+                Mensaje:
+                <textarea type="text" name="mensaje"></textarea>
+            </label>
+
+            <!-- your other form fields go here -->
+            <br>
+            <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
