@@ -2,8 +2,8 @@
 title: LA VIDA TRAS LOS CRISTALES
 email: ""
 description: "Trabajo de Fin de Grado"
-url: "https://giorg0s.github.io"
-baseurl: "/pruebaisa1"
+url: "https://isabel-nieto.github.io"
+baseurl: "/tfg-lavidatrasloscristales"
 facebook_username: ""
 twitter_username: "@IsaBass_"
 instagram_username: ""
@@ -33,12 +33,12 @@ comments :
 
 # Internal nav
 nav:
-  - PODCAST: "https://giorg0s.github.io/pruebaisa1/podcast/"
-  - DEDICATORIA: "https://giorg0s.github.io/pruebaisa1/dedicatoria/"
-  - MÚSICAS DEL CONFINAMIENTO: "https://giorg0s.github.io/pruebaisa1/musica/"
-  - DIARIO VISUAL: "https://giorg0s.github.io/pruebaisa1/galeria/"  
-  - SOBRE MÍ: "https://giorg0s.github.io/pruebaisa1/sobre/"
-  - CONTACTO: "https://giorg0s.github.io/pruebaisa1/contacto/"
+  - PODCAST: "https://isabel-nieto.github.io/tfg-lavidatrasloscristales/podcast/"
+  - DEDICATORIA: "https://isabel-nieto.github.io/tfg-lavidatrasloscristales/dedicatoria/"
+  - MÚSICAS DEL CONFINAMIENTO: "https://isabel-nieto.github.io/tfg-lavidatrasloscristales/musica/"
+  - DIARIO VISUAL: "https://isabel-nieto.github.io/tfg-lavidatrasloscristales/galeria/"  
+  - SOBRE MÍ: "https://isabel-nieto.github.io/tfg-lavidatrasloscristales/sobre/"
+  - CONTACTO: "https://isabel-nieto.github.io/tfg-lavidatrasloscristales/contacto/"
 
 # All translation keys
 translations:
