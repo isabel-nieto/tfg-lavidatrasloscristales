@@ -21,7 +21,7 @@ h6 {
   font-weight: 900;
 }
 a {
-  color: #0085a1;
+  color: #f2e081;
   transition: color .4s;
   text-decorarion: none;
 }
@@ -76,14 +76,14 @@ hr.small {
   }
   .navbar-custom .navbar-brand:hover,
   .navbar-custom .navbar-brand:focus {
-    color: #0085a1;
+    color: #f2e081;
   }
   .navbar-custom .nav li a {
     color: white;
     padding: 20px;
   }
   .navbar-custom .nav li a:hover{
-    color: #0085a1;
+    color: #f2e081;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -113,11 +113,11 @@ hr.small {
     color: #ffffff;
   }
   .navbar-custom.is-fixed .navbar-brand:hover {
-    color: #0085a1;
+    color: #f2e081;
   }
   
   .navbar-custom.is-fixed .nav li a:hover {
-    color: #0085a1;
+    color: #f2e081;
   }
 .navbar-custom.is-fixed .nav li a:active{
     color: #6ec54d;
@@ -244,7 +244,7 @@ hr.small {
 }
 .post-preview > .post-meta > a:hover,
 .post-preview > .post-meta > a:focus {
-  color: #0085a1;
+  color: #f2e081;
   text-decoration: underline;
 }
 @media only screen and (min-width: 768px) {
@@ -324,7 +324,7 @@ footer .copyright {
   opacity: 1;
 }
 .floating-label-form-group-with-focus label {
-  color: #0085a1;
+  color: #f2e081;
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
@@ -344,8 +344,8 @@ form .row:first-child .floating-label-form-group {
 }
 .btn-default:hover,
 .btn-default:focus {
-  background-color: #0085a1;
-  border: 1px solid #0085a1;
+  background-color: #f2e081;
+  border: 1px solid #f2e081;
   color: white;
 }
 .pager {
@@ -384,12 +384,12 @@ form .row:first-child .floating-label-form-group {
 ::-moz-selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #f2e081;
 }
 ::selection {
   color: white;
   text-shadow: none;
-  background: #0085a1;
+  background: #f2e081;
 }
 img::selection {
   color: white;
@@ -400,7 +400,7 @@ img::-moz-selection {
   background: transparent;
 }
 body {
-  webkit-tap-highlight-color: #0085a1;
+  webkit-tap-highlight-color: #f2e081;
 }
 .fa-stack-2x {
  color: black;

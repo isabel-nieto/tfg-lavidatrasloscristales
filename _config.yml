@@ -15,10 +15,10 @@ share: true
 
 # Owner/author information
 owner:
-  name:   
+  name: tfg-lavidatrasloscristales
   avatar: 
   favicon: favicon.ico
-  info: 
+  info: trabajo de fin de grado de periodismo
 
 # Settings for comments helper
 # Set 'provider' to the comment provider you want to use. (i.e.  Disqus, Intense Debate, livefyre, or Facebook Comments)
@@ -54,7 +54,7 @@ port:             	 4000
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 6
+paginate: 5
 paginate_path: "/journal/page:num/"
 permalink: "/journal/:title/"
 categories_path: "/journal/category/"
