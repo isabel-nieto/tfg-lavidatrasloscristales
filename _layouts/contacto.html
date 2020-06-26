@@ -26,29 +26,47 @@ layout: default
         <div class="col-lg-7">
             <!-- modify this form HTML and place wherever you want your form -->
             <h2>Formulario de contacto:</h2>
-            <form
-            action="https://getsimpleform.com/messages?form_api_token=14148b7134bc0375a57ec02752c3d2f4"
-            method="POST"
-            >
-            <div class="form-group">
-                <label for="nombre">Nombre: </label>
-                <textarea type="text" id="nombre" name="nombre" class="form-control"></textarea>
+            <form name="sentMessage" id="contactForm" novalidate>
+            <div class="control-group">
+                <div class="form-group col-xs-12 controls">
+                    <label for="nombre">Nombre: </label>
+                    <input type="text" id="nombre" name="nombre" class="form-control" required data-validation-required-message="Debes introducir un nombre.">
+                    <p class="help-block text-danger"></p>
+                </div>
+
             </div>
-            <div class="form-group">
-                <label for="email">Correo electrónico: </label>
-                <textarea type="text" id="email" name="email" class="form-control"></textarea>
+            <div class="control-group">
+                <div class="form-group col-xs-12 controls">
+                    <label for="email">Correo electrónico: </label>
+                    <input type="text" id="email" name="email" class="form-control" required data-validation-required-message="Debes introducir un correo electrónico válido">
+                    <p class="help-block text-danger"></p>
+                </div>
+
             </div>
-            <div class="form-group">
-                <label for="asunto">Asunto: </label>
-                <textarea type="text" id="asunto" name="asunto" class="form-control"></textarea>
+            <div class="control-group">
+                <div class="form-group col-xs-12 controls">
+                    <label for="asunto">Asunto: </label>
+                    <input type="text" id="asunto" name="asunto" class="form-control" required data-validation-required-message="Por favor, introduce un asunto para el mensaje.">
+                    <p class="help-block text-danger"></p>
+                </div>
+
             </div>       
-            <div class="form-group">
-                <label for="mensaje">Mensaje: </label>
-                <textarea type="text" id="mensaje" name="mensaje" class="form-control"></textarea>
+            <div class="control-group">
+                <div class="form-group col-xs-12 controls">
+                    <label for="mensaje">Mensaje: </label>
+                    <textarea type="text" rows="5" id="mensaje" name="mensaje" class="form-control" required data-validation-required-message="Por favor, introduce un mensaje."></textarea>
+                    <p class="help-block text-danger"></p>
+                </div>
             </div>
 
+            <br>
+            <div id="success"></div>
+
             <!-- your other form fields go here -->
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary" id="sendMessageButton">Enviar</button>
+            </div>
+            
             </form>
         </div>
     </div>
