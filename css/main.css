@@ -120,7 +120,7 @@ hr.small {
     color: #f2e081;
   }
 .navbar-custom.is-fixed .nav li a:active{
-    color: #6ec54d;
+    color: #f2e081;
   }
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
